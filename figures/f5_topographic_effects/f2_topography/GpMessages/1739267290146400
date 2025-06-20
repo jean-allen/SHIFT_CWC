@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Wednesday, March 5, 2025 1:47:49 PM</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+  File "c:\program files\arcgis\pro\Resources\ArcToolbox\scripts\XYTableToPoint.py", line 285, in &lt;module&gt;
+    ", ".join(empty_out_bounds)))
+  File "c:\program files\arcgis\pro\Resources\ArcToolbox\scripts\XYTableToPoint.py", line 272, in xy_table_to_points
+    elif type(e) is RuntimeError:
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 8543, in AddSpatialIndex
+    raise e
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 8540, in AddSpatialIndex
+    retval = convertArcObjectToPythonObject(gp.AddSpatialIndex_management(*gp_fixargs((in_features, spatial_grid_1, spatial_grid_2, spatial_grid_3), True)))
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 520, in &lt;lambda&gt;
+    return lambda *args: val(*gp_fixargs(args, True))
+arcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.
+ERROR 000732: Input Features: Dataset C:\Users\jeanallen\Desktop\SHIFT_CWC\figures\f2_topographic_effects_take2\f2_topography\f2_topography.gdb\lisque_data.shp does not exist or is not supported
+Failed to execute (AddSpatialIndex).
+
+</msg><msg code="0" type="0">Failed script XY Table To Point...</msg><msg code="-2147467259" type="100">Failed to execute (XYTableToPoint).</msg><msg code="0" type="3">Failed at Wednesday, March 5, 2025 1:47:51 PM (Elapsed Time: 1.34 seconds)</msg></messages>

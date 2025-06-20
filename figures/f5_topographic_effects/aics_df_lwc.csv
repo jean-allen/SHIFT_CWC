@@ -1,0 +1,17 @@
+formula,AIC
+1,-429.75875690635064
+elevation,-427.83811883616437
+slope,-443.63081232802483
+aspect,-430.66165909854413
+cwc,-434.84770616073286
+elevation + slope,-441.719924310188
+elevation + aspect,-428.7297615965347
+elevation + cwc,-432.91865545827045
+slope + aspect,-446.2613314333379
+slope + cwc,-445.84977556019936
+aspect + cwc,-434.50981057143673
+elevation + slope + aspect,-444.3906505412729
+elevation + slope + cwc,-444.3268262779932
+elevation + aspect + cwc,-432.56678846213396
+slope + aspect + cwc,-447.11665972580874
+elevation + slope + aspect + cwc,-445.5799540692922

@@ -1,5 +1,12 @@
+# Imagery
+*.tif
+*.ovr
+
 # Powerpoint files
 *.pptx
+
+# Adobe suite files
+*.ai
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
