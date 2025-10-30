@@ -1,6 +1,7 @@
 # Imagery
 *.tif
 *.ovr
+*.mat
 
 # Powerpoint files
 *.pptx
